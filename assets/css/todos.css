@@ -1,0 +1,74 @@
+* {
+    font-family: Dancing Script;
+}
+
+#container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #ff6666;
+    box-shadow: 12px 0px 3px 6px rgba(76, 76, 76, 0.6);
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 20px;
+    color: white;
+    background-color: #4c90ff;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    background-color: #ff6666;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:focus {
+    border: 3px solid #9d8cff;
+    background-color: #af0a0a;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Get rid of bullet points */
+}
+
+.finishedItem {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+li {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+li:nth-child(2n) {
+    background-color: #ffafaf;
+}
+
+li, .noselect { /* Make list items unselectable */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
